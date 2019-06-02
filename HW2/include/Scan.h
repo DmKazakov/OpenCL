@@ -8,7 +8,7 @@
 
 class Scan {
     private:
-        size_t const BLOCK_SIZE = 4;
+        size_t const BLOCK_SIZE = 256;
         cl::Context context;
         cl::Program program;
         cl::CommandQueue queue;
